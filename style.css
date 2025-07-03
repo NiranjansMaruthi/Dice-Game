@@ -1,0 +1,146 @@
+/* main styling content */
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    background-color: rgb(124, 124, 124);
+}
+/* Navbar style code */
+nav{
+    align-items: center;
+    text-align: center;
+    background-color: rgb(151, 48, 48);
+    color: rgb(255, 255, 255);
+    height: 55px;
+    width: 100%;
+    font-size: 39px;
+}
+
+/* Refresh button*/
+.result{
+    text-align: center;
+    margin-top: 40px;
+    padding: 10px;
+    font-size: 18px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(9, 121, 121);
+    color: white;
+    width: 100px;
+    height: 22px;
+    border: 2px solid black;
+    margin-left:650px;
+    margin-right: auto;
+    border-radius: 10px;
+}
+
+
+/* Content part*/
+.content {
+    width: 1000px;
+    height: 450px;
+    margin-left: 190px;
+    margin-top: 30px;
+    display: flex;
+    gap:90px;
+    padding-left:70px;
+    padding-top: 30px;
+}
+.content h1{
+    margin-top: 190px;
+}
+/* User-1 code*/
+.user1{
+
+    height: 400px;
+    width: 400px;
+    align-items: center;
+    text-align: center;
+    padding-top: 10px;
+}
+.user1 h3{
+    font-size: 22px;
+}
+.user1 input{
+    margin-top: 10px;
+    width: 190px;
+    height: 30px;
+    padding-left: 10px;
+    outline: none;
+    border: 3px solid black;
+    border-radius: 10px;
+    background-color: rgb(187, 183, 179);
+    
+
+}
+
+
+.user1 img{
+    margin-top: 30px;
+    width: 230px;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 20px;
+}
+
+
+/* User-2 code*/
+.user2{
+    padding-top: 10px;
+    height: 400px;
+    width: 400px;
+    align-items: center;
+    text-align: center;
+}
+
+
+.user2 h3{
+    font-size: 22px;
+}
+
+
+.user2 input{
+    margin-top: 10px;
+    width: 190px;
+    height: 30px;
+    padding-left: 10px;
+    outline: none;
+    border: 3px solid black;
+    border-radius: 10px;
+    background-color: rgb(187, 183, 179);
+}
+
+.user2 img{
+    margin-top: 30px;
+    width: 230px;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 20px;
+}
+
+/* Result display Tag*/
+#tag{
+    margin-top: 10px;
+    margin-left: 400px;
+    text-align: center;
+    width: 600px;
+    color: rgb(0, 0, 0);
+    padding-left: 10px; 
+}
+
+/* spin button*/
+.rollbtn button{
+    margin-left: 650px;
+    width: 140px;
+    height: 60px;
+    font-size: 20px;
+    margin-top: 10px;
+    border:2px solid black ;
+    outline: none;
+    border-radius: 10px;
+    background-color: rgb(58, 195, 200);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.rollbtn button:hover{
+    background-color: rgb(85, 168, 175);
+}
